@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>等一等</title>
+<style>
+body{margin:0;padding:0;font-size:15px;font-weight:bold}
+
+.head ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.head li {
+    float: left;
+}
+
+.head li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.head li a:hover {
+    background-color: #111;
+}
+.current {
+    background-color: #4CAF50;
+}
+
+div{ text-align:center; line-height:30px}
+.head, .main, .footer{ width:960px; margin:0 auto}
+.head{ height:78px;absolute: fixed;background:#fff}
+.left{ width:240px; height:600px; background:#ccc; float:left}
+.right{ width:720px; height:600px;background:#FCC; float:right}
+.footer{ height:50px; background:#9F9; clear:both}
+</style>
+</head>
+
+<body>
+<div class="head">
+<ul>
+  <li class="current"><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+</div>
+<div class="main">
+    <div class="left">left</div>
+    <div class="right">right</div>
+</div>
+<div class="footer">footer</div>
+</body>
+</html>
